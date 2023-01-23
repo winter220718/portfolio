@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('/fonts/NanumGothic.eot');
+    src: url('/fonts/NanumGothic.eot') format('embedded-opentype'),
+        url('/fonts/NanumGothic.woff') format('woff');
+}
+
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Share+Tech+Mono&display=swap');
+
+* {
+    font-family: 'NanumGothic', 'serif';
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+
+#pic>div {
+    font-family: 'NanumGothic', 'serif';
+    text-align: center;
+    color: white;
+}
+
+#name {
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+#nameEng {
+    margin-top: 5px;
+    font-size: 17px;
+
+}
+
+#hello {
+    margin-top: 40px;
+    font-size: 13px;
+    line-height: 160%;
+}
+
+#me {
+    width: 130pt;
+    margin-top: 50px;
+
+
+}
+
+#pic {
+
+    background-color: rgb(86, 149, 169);
+    text-align: center;
+    position: fixed;
+    overflow: auto;
+
+}
+
+
+#links {
+    margin: 10px;
+
+}
+
+#links img {
+
+    margin: 20px 10px;
+    width: 28px;
+}
+
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* position: relative; */
+
+}
+
+.container>div:first-child {
+
+
+    height: 100vh;
+    width: 15%;
+}
+
+.container>div:last-child {
+    height: 100vh;
+
+    width: 85%;
+    margin-left: 15%;
+}
+
+.mini_container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+.mini_container>div:first-child {
+    height: 32%;
+    background-color: whitesmoke;
+
+}
+
+.mini_container>div:last-child {
+    height: 68%;
+
+}
+
+#project_name {
+    font-family: 'NanumGothic', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+#project_time {
+    font-family: 'NanumGothic', sans-serif;
+    font-size: 14px;
+    color: lightslategrey;
+
+}
+
+#project_description {
+    margin-top: 40px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.bullets {
+    display: inline-block;
+    position: relative;
+    /* border: solid 1px black; */
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    top: -7px;
+
+
+}
+
+.material-symbols-outlined {
+
+    position: relative;
+    margin-top: 25px;
+
+    /* border: solid 1px black; */
+
+
+}
+
+#project_description ul {
+    padding-inline-start: 3px;
+    margin-top: 10px;
+
+}
+
+
+#project_description li {
+    list-style-type: none;
+
+
+}
+
+.bar {
+
+    margin-top: 60px;
+    background-color: gainsboro;
+    height: 90px;
+    width: 1px;
+}
+
+.description_container {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+
+}
+
+.description_container div {
+    margin-right: 40px;
+    line-height: 180%;
+}
+
+#whatIthougth {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+#whatIthougth>pre:nth-child(2) {
+
+    margin-left: 30px;
+}
+
+.main_container {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main_container>div:first-child {
+    /* border: 1px solid black; */
+    height: 530px;
+
+
+}
+
+
+#img_container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+
+}
+
+#img_container img {
+
+    box-shadow: 0px 2px 15px 5px gainsboro;
+    margin: 20px 20px 0px;
+
+}
+
+#detailed_container {
+    display: flex;
+    flex-direction: row;
+}
+
+#detailed_container>div:first-child {
+    width: 49%
+}
+
+#detailed_container>div:last-child {
+    width: 49%
+}
+
+.mini_bullet {
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    height: 30px;
+    
+    color: black;
+    border-radius: 5px;
+    justify-content: center;
+
+}
+
+.detailed_mini_container {
+    margin: 60px 30px 0px 60px;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.detailed_mini_container>div {
+    margin-bottom: 60px;
+}
+
+
+.detailed_description {
+    font-size: 14px;
+    line-height: 190%;
+    display: inline-block;
+    /* border: solid 1px black; */
+
+    margin-left: 30px;
+
+}
+
+.smallest_container {
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.highlight {
+    font-weight: 600;
+}
+
+#review{
+    
+    display: inline-flex;
+    font-size: 14px;
+
+    margin: 50px;
+    font-weight: 400;
+    line-height: 180%;
+
+    justify-content: center;
+}
+
+#review>div{
+
+    margin-left: 60px;
+    margin-right: 60px;
+    width:43%;
+}
